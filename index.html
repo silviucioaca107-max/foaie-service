@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ro">
 <head>
@@ -6,74 +7,46 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f6f8;
+      background: #eef2f7;
       padding: 20px;
     }
     .container {
-      max-width: 800px;
+      max-width: 900px;
       margin: auto;
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     }
     h1 {
       text-align: center;
+      margin-bottom: 30px;
+    }
+    .row {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+    .col {
+      flex: 1;
     }
     label {
       font-weight: bold;
       display: block;
-      margin-top: 15px;
+      margin-bottom: 5px;
     }
     input, textarea {
       width: 100%;
       padding: 10px;
-      margin-top: 5px;
-      border-radius: 6px;
+      border-radius: 8px;
       border: 1px solid #ccc;
+      font-size: 14px;
     }
     textarea {
       resize: vertical;
-      min-height: 120px;
+      min-height: 100px;
     }
-    button {
-      margin-top: 20px;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 6px;
-      background: #2563eb;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    button:hover {
-      background: #1e4fd6;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Foaie de Service</h1>
-
-    <label>Client</label>
-    <input type="text" placeholder="Nume client" />
-
-    <label>Telefon</label>
-    <input type="text" placeholder="Număr de telefon" />
-
-    <label>Echipament</label>
-    <input type="text" placeholder="Laptop / PC / Telefon etc." />
-
-    <label>Probleme reclamate</label>
-    <textarea placeholder="Descrie problemele..."></textarea>
-
-    <label>Observații service</label>
-    <textarea placeholder="Completat de tehnician"></textarea>
-
-    <label>Data</label>
-    <input type="date" />
-
-    <button>Salvează foaia</button>
-  </div>
-</body>
-</html>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top:
