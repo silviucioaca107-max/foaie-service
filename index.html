@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <title>Foaie de Service</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #2563eb;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1e4fd6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Foaie de Service</h1>
+
+    <label>Client</label>
+    <input type="text" placeholder="Nume client" />
+
+    <label>Telefon</label>
+    <input type="text" placeholder="Număr de telefon" />
+
+    <label>Echipament</label>
+    <input type="text" placeholder="Laptop / PC / Telefon etc." />
+
+    <label>Probleme reclamate</label>
+    <textarea placeholder="Descrie problemele..."></textarea>
+
+    <label>Observații service</label>
+    <textarea placeholder="Completat de tehnician"></textarea>
+
+    <label>Data</label>
+    <input type="date" />
+
+    <button>Salvează foaia</button>
+  </div>
+</body>
+</html>
